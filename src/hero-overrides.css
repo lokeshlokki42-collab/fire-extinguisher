@@ -1,0 +1,16 @@
+.hero {
+  background: #343434;
+}
+
+.hero-backdrop {
+  background: #626262;
+  opacity: .92;
+}
+
+.hero-backdrop video {
+  filter: brightness(1.8) contrast(.72) saturate(1.25);
+}
+
+.hero-overlay {
+  background: linear-gradient(90deg, rgba(23, 23, 23, .98) 8%, rgba(23, 23, 23, .82) 36%, rgba(23, 23, 23, .3) 66%, rgba(23, 23, 23, .02) 100%);
+}
